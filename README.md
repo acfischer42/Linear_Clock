@@ -76,12 +76,15 @@ Configure Device:
 
 ![](media/80c454581b06b3a2686e4934a68d7282.png)
 
-1.  Enter your Network SSID and password.
+6.  Enter your Network SSID and password.
 
-2.  Click on Connect/Disconnect – Device will reboot and connect to your
+7.  Click on Connect/Disconnect – Device will reboot and connect to your
     wireless network.
 
-3.  You are done
+8.  You are done
+
+
+
 
 4.  If you need to configure a timeserver (normally not needed)
 

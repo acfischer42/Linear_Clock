@@ -6,8 +6,7 @@ Install Windows Driver
 ======================
 
 -   Open this link
-
-<https://github.com/acfischer42/ESP8266/raw/Rheinturmuhr/LinearClock-release/CH341SER_WINDOWS.zip>
+<https://github.com/acfischer42/Linear_Clock/raw/master/CH341SER_WINDOWS.zip>
 
 -   Save to Downloads folder and run (double click)
 
@@ -17,10 +16,10 @@ Write Program to device:
 1.  Connect clock to USB port of the PC
 
 2.  Download Firmware: open Link and save to Downloads folder.  
-    <https://github.com/acfischer42/ESP8266/raw/Rheinturmuhr/LinearClock-release/LinearClock.nodemcu.v2.bin>
+    <https://github.com/acfischer42/Linear_Clock/raw/master/LinearClock.nodemcu.v2.bin>
 
 3.  Download Flash Tool: open Link and save to Downloads folder.  
-    <https://github.com/acfischer42/ESP8266/raw/Rheinturmuhr/LinearClock-release/NodeMCU-PyFlasher-4.0-x86.exe>
+    <https://github.com/acfischer42/Linear_Clock/raw/master/NodeMCU-PyFlasher-4.0-x86.exe>
 
 -   Double Click to Run the program
 

@@ -6,7 +6,7 @@ Install Windows Driver
 ======================
 
 -   Open this link
-<https://github.com/acfischer42/Linear_Clock/raw/master/CH341SER_WINDOWS.zip>
+    <https://github.com/acfischer42/Linear_Clock/raw/master/CH341SER_WINDOWS.zip>
 
 -   Save to Downloads folder and run (double click)
 
@@ -76,15 +76,12 @@ Configure Device:
 
 ![](media/80c454581b06b3a2686e4934a68d7282.png)
 
-6.  Enter your Network SSID and password.
+1.  Enter your Network SSID and password.
 
-7.  Click on Connect/Disconnect – Device will reboot and connect to your
+2.  Click on Connect/Disconnect – Device will reboot and connect to your
     wireless network.
 
-8.  You are done
-
-
-
+3.  You are done. It will take 30 sec for the Clock to reboot and set it’s time.
 
 4.  If you need to configure a timeserver (normally not needed)
 

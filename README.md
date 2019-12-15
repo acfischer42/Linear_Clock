@@ -10,7 +10,11 @@ Install Windows Driver
 
 -   Save to Downloads folder, open zip folder and run the file (double click)
 
--   If prompted by Windows Defender, click "yes".
+-   If prompted, grant admin rights.
+
+-   Once on the following window, click *install*.
+
+![](media/WinDriverWindow.jpg)
 
 Write Program to device:
 ========================

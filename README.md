@@ -8,12 +8,18 @@ Install Windows Driver
 -   Open this link
     <https://github.com/acfischer42/Linear_Clock/raw/master/CH341SER_WINDOWS.zip>
 
--   Save to Downloads folder and run (double click)
+-   Save to Downloads folder, open zip folder and run the file (double click)
+
+-   If prompted, grant admin rights.
+
+-   Once on the following window, click *install*.
+
+![](media/WinDriverWindow.jpg)
 
 Write Program to device:
 ========================
 
-1.  Connect clock to USB port of the PC
+1.  Connect clock to a USB port of the PC (standard / old phone cable - type miniUSB)
 
 2.  Download Firmware: open Link and save to Downloads folder.  
     <https://github.com/acfischer42/Linear_Clock/raw/master/LinearClock.nodemcu.v2.bin>
@@ -27,27 +33,29 @@ Write Program to device:
 
 ![](media/8589a13d4ef9b141e200692610349f65.png)
 
-1.  Click on
+2.  In the upper right corner, click on the downwards facing arrow.
 
-![](media/47c01ac3b6d663f5b7a1afe059c0c60d.png)
+![](media/NodeMCU-2-1.jpg)
 
-, select Auto-select for the serial port
+   And select *Auto-select* for the serial port
 
 ![](media/1dc23e8bbfce2d9c6faa2de4a93bf774.png)
 
-1.  Select Firmware that was downloaded in step 1:
+3.  Select Firmware that was downloaded in step 1:
 
 ![](media/6d54edc72be0fa901978b93120ddc6fa.png)
 
-1.  Keep Baud Rate and Flash Mode at default (115200, DIO)
+4.  Keep Baud Rate and Flash Mode at default (115200, DIO)
 
-2.  Select erase all
+5.  Select erase all
 
 ![](media/34945772308f49e8cd1b09596c9f5c09.png)
 
-1.  Click on
+6.  Click on
 
 ![](media/3fb5cc3bcb12df4b68f9229faa3693aa.png)
+
+The process will start.
 
 ![](media/07b319327cace9f64fa47f456fff283d.png)
 
@@ -68,7 +76,8 @@ Configure Device:
 
     1.  Password: 12345678
 
-4.  Open browser. Enter address <http://192.168.4.1>
+4.  Open a **new** internet browser tab. Enter address 192.168.4.1 . **Do NOT close this page**. You still want to follow the instruction...
+    Your PC/phone might say that you need to log into the network before you can access the internet. Simply ignore that. It is normal that you don't have internet!
 
 5.  Click on 2. Configure Wifi
 
@@ -76,22 +85,22 @@ Configure Device:
 
 ![](media/80c454581b06b3a2686e4934a68d7282.png)
 
-1.  Enter your Network SSID and password.
+6.  Enter your Wifi Name and password. Don't enter "SSID" preceding your wifi name.
 
-2.  Click on Connect/Disconnect – Device will reboot and connect to your
+7.  Click on Connect/Disconnect – Device will reboot and connect to your
     wireless network.
 
-3.  You are done. It will take 30 sec for the Clock to reboot and set it’s time.
+8.  You are done. It will take 30 sec for the Clock to reboot and set its time.
 
-4.  If you need to configure a timeserver (normally not needed)
+-  If you need to configure a time server (normally not needed)
 
-5.  Click on 1. configure Time.
+1  Click on 1. configure Time.
 
 ![](media/8cd33d0da7e3479958dc32be4382e690.png)
 
-1.  Enter Timezone (<https://www.timeanddate.com/worldclock/>)
+2.  Enter Timezone (<https://www.timeanddate.com/worldclock/>)
 
-2.  Enter Timeserver = us.pool.ntp.org or other eu. Ap.
+3.  Enter Timeserver = us.pool.ntp.org or other eu. Ap.
 
-3.  Click on Save Timesettings – you get automatically forwarded to the WIFI
+4.  Click on Save Timesettings – you get automatically forwarded to the WIFI
     config page

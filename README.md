@@ -76,7 +76,7 @@ Configure Device:
 
     1.  Password: 12345678
 
-4.  Open a **new** internet browser tab. Enter address or click <a href="http://192.168.4.1" target="_blank">192.168.4.1</a> **Do NOT close this page**. You still want to follow the instruction...
+4.  Open a **new** internet browser tab. Enter address or click [](192.168.4.1){:target="_blank"} **Do NOT close this page**. You still want to follow the instruction...
     Your PC/phone might say that you need to log into the network before you can access the internet. Simply ignore that. It is normal that you don't have internet!
 
 5.  Click on 2. Configure Wifi

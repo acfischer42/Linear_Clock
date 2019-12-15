@@ -30,6 +30,7 @@ Write Program to device:
 ![](media/8589a13d4ef9b141e200692610349f65.png)
 
 2.  In the upper right corner, click on the downwards facing arrow.
+
 ![](media/NodeMCU-2-1.jpg)
 
    And select *Auto-select* for the serial port

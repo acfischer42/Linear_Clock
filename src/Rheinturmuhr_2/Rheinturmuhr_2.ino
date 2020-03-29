@@ -338,7 +338,7 @@ void loop()
 
 void ipgeolocation_query() {
   Serial.println("IPgeoloc");
-  /*IPGeolocation location(Key);
+  IPGeolocation location(Key);
     IPGeo IPG;
     location.updateStatus(&IPG);
     //Serial.println(IPG.city);
@@ -358,7 +358,7 @@ void ipgeolocation_query() {
     //             Serial.println(ipminute);
     //              Serial.println(iphour);
     setTime(iphour, ipminute, ipsecond, 1, 1, 2019);
-  */
+  
 }
 
 void Rheinturmuhr()

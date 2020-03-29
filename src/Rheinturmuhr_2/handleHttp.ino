@@ -148,6 +148,7 @@ void handletime() {
   server.sendContent(String() + "<br /><label><input type='text' value='" + TimeServer + "' name='tserv'/> ntp Server Name or IP address (us.pool.ntp.org) </label>");
   server.sendContent(   
     "<br /><label><input type='Checkbox' placeholder='Daylight Savings Time' name='dst' value='on'/>DST Checked = tz +1 </label>"
+    "<br /><label><input type='Checkbox' placeholder='Geolocation' name='geoloc' value='OFF'/>Don't Use Geolocation for time setting</label>"
     "<br /><input type='submit' value='Save Time Settings'/></form>");
   // End timeserver config
   
@@ -164,6 +165,7 @@ void handletime() {
 void handleTimeSave() {
   Serial.println("Time save");
   server.arg("dst").toCharArray(dstactive, sizeof(dstactive) - 1);
+  server.arg("geoloc").toCharArray(geolocactive, sizeof(geolocactive) - 1);
   server.arg("tserv").toCharArray(TimeServer, sizeof(TimeServer) - 1);
   server.arg("tz").toCharArray(wTimezone, sizeof(wTimezone) - 1);
   server.sendHeader("Location", "wifi", true);

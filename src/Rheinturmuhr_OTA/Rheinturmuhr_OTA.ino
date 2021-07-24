@@ -5,6 +5,9 @@
 //delete wifi credentials from eeprom?
 //save time zone and DST to eeprom
 //#include <NTPClient.h>
+//update via OTA command line if mdns is not properly working
+//C:\Users\msn\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3\tools>py espota.py -i 10.1.1.45 -f C:\Users\msn\OneDrive\Documents\Linear_Clock\src\Rheinturmuhr_OTA\Rheinturmuhr_OTA.ino.nodemcu.bin -a password
+
 
 
 
